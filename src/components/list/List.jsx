@@ -4,7 +4,7 @@ import UserInfo from "./userInfo/UserInfo"
 
 const List = () => {
     return (
-        <div>
+        <div className="list">
             List
             <UserInfo/>
         </div>
