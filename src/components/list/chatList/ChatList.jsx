@@ -10,7 +10,7 @@ const ChatList = () => {
           <img src="/public/search.png" alt="" />
           <input type="text" placeholder='Search' />
         </div>
-        <img src="/public/plus.png" alt="" />
+        <img src="/public/plus.png" alt="" className='add-img' />
       </div>
     </div>
   )
