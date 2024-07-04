@@ -1,6 +1,39 @@
 .chatList {
     flex: 1;
-    overflow: scroll;
+    overflow: hidden;
+    overflow-x: hidden;
+
+    .chatList::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .chatList::-webkit-scrollbar-track {
+        background: #f50202;
+        /* color of the track */
+    }
+
+    .chatList::-webkit-scrollbar-thumb {
+        background-color: #06468f;
+        /* color of the scrollbar */
+        border-radius: 10px;
+        /* roundness of the thumb */
+    }
+
+    /* For Firefox */
+    .chatList {
+        scrollbar-width: thin;
+        scrollbar-color: #00162e #f1f1f1;
+        /* thumb and track color */
+    }
+
+    /* For Internet Explorer */
+    .chatList {
+        scrollbar-face-color: #4a90e2;
+        /* color of the scrollbar */
+        scrollbar-arrow-color: #ffffff;
+        /* color of the scrollbar arrow */
+    }
+
 
     .search {
         display: flex;
@@ -69,7 +102,6 @@
     p {
         font-size: 14px;
         font-weight: 300;
-        
     }
 
 }

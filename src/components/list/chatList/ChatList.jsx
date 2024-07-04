@@ -48,6 +48,62 @@ const ChatList = () => {
         </div>
       </div>
 
+      <div className='item'>
+        <img src="/public/avatar.png" alt="" />
+        <div className='texts'>
+          <span>Jane Doe</span>
+          <p>hello</p>
+        </div>
+      </div>
+
+      <div className='item'>
+        <img src="/public/avatar.png" alt="" />
+        <div className='texts'>
+          <span>Jane Doe</span>
+          <p>hello</p>
+        </div>
+      </div>
+
+      <div className='item'>
+        <img src="/public/avatar.png" alt="" />
+        <div className='texts'>
+          <span>Jane Doe</span>
+          <p>hello</p>
+        </div>
+      </div>
+
+      <div className='item'>
+        <img src="/public/avatar.png" alt="" />
+        <div className='texts'>
+          <span>Jane Doe</span>
+          <p>hello</p>
+        </div>
+      </div>
+
+      <div className='item'>
+        <img src="/public/avatar.png" alt="" />
+        <div className='texts'>
+          <span>Jane Doe</span>
+          <p>hello</p>
+        </div>
+      </div>
+
+      <div className='item'>
+        <img src="/public/avatar.png" alt="" />
+        <div className='texts'>
+          <span>Jane Doe</span>
+          <p>hello</p>
+        </div>
+      </div>
+
+      <div className='item'>
+        <img src="/public/avatar.png" alt="" />
+        <div className='texts'>
+          <span>Jane Doe</span>
+          <p>hello</p>
+        </div>
+      </div>
+
     </div>
   )
 }
