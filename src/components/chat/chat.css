@@ -1,6 +1,5 @@
 .chat {
     flex: 2;
-    /* background-color: lightpink; */
     border-left: 1px solid #dddddd35;
     border-right: 1px solid #dddddd35;
     height: 100%;
@@ -166,4 +165,5 @@
         }
 
     }
+
 }
