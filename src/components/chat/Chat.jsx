@@ -9,10 +9,14 @@ const Chat = () => {
           <img src="/public/avatar.png" alt="" />
           <div className="texts">
             <span>Jane Doe</span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum natus, facilis minus minima eos at maiores optio. Iusto nulla deserunt nam provident quaerat voluptates sed ad. Ab, optio at.</p>
+            <p>Lorem ipsum dolor sit amets.</p>
           </div>
         </div>
-        <div className="icons"></div>
+        <div className="icons">
+          <img src="/public/phone.png" alt="" />
+          <img src="/public/video.png" alt="" />
+          <img src="/public/info.png" alt="" />
+        </div>
       </div>
       <div className="center"></div>
       <div className="bottom"></div>
