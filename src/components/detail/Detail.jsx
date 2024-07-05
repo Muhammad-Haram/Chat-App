@@ -20,7 +20,7 @@ const Detail = () => {
 
         <div className="option">
           <div className="title">
-            <span>Privacy % help</span>
+            <span>Privacy & help</span>
             <img src="/public/arrowUp.png" alt="" />
           </div>
         </div>
@@ -37,7 +37,7 @@ const Detail = () => {
                 <img src="https://images.pexels.com/photos/26559989/pexels-photo-26559989/free-photo-of-a-person-s-feet-are-on-the-edge-of-a-boat.jpeg" alt="" />
                 <span>Photo_2024_2.png</span>
               </div>
-              <img src="/public/download.png" alt="" />
+              <img src="/public/download.png" alt="" className='icon' />
             </div>
 
             <div className="photoItem">
@@ -45,7 +45,7 @@ const Detail = () => {
                 <img src="https://images.pexels.com/photos/26559989/pexels-photo-26559989/free-photo-of-a-person-s-feet-are-on-the-edge-of-a-boat.jpeg" alt="" />
                 <span>Photo_2024_2.png</span>
               </div>
-              <img src="/public/download.png" alt="" />
+              <img src="/public/download.png" alt="" className='icon' />
             </div>
 
             <div className="photoItem">
@@ -53,7 +53,7 @@ const Detail = () => {
                 <img src="https://images.pexels.com/photos/26559989/pexels-photo-26559989/free-photo-of-a-person-s-feet-are-on-the-edge-of-a-boat.jpeg" alt="" />
                 <span>Photo_2024_2.png</span>
               </div>
-              <img src="/public/download.png" alt="" />
+              <img src="/public/download.png" alt="" className='icon' />
             </div>
 
             <div className="photoItem">
@@ -61,7 +61,7 @@ const Detail = () => {
                 <img src="https://images.pexels.com/photos/26559989/pexels-photo-26559989/free-photo-of-a-person-s-feet-are-on-the-edge-of-a-boat.jpeg" alt="" />
                 <span>Photo_2024_2.png</span>
               </div>
-              <img src="/public/download.png" alt="" />
+              <img src="/public/download.png" alt="" className='icon' />
             </div>
 
           </div>
@@ -73,11 +73,8 @@ const Detail = () => {
             <img src="/public/arrowUp.png" alt="" />
           </div>
         </div>
-
-        <button>Block User</button>
-
       </div>
-
+        <button>Block User</button>
     </div>
   )
 }
