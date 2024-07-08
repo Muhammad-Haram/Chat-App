@@ -25,16 +25,16 @@ const Chat = () => {
     <div className="chat">
       <div className="top">
         <div className="user">
-          <img src="/public/avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className="texts">
             <span>Jane Doe</span>
             <p>Lorem ipsum dolor sit amets.</p>
           </div>
         </div>
         <div className="icons">
-          <img src="/public/phone.png" alt="" />
-          <img src="/public/video.png" alt="" />
-          <img src="/public/info.png" alt="" />
+          <img src="/phone.png" alt="" />
+          <img src="/video.png" alt="" />
+          <img src="/info.png" alt="" />
         </div>
       </div>
 
@@ -42,7 +42,7 @@ const Chat = () => {
       <div className="center">
 
         <div className="message">
-          <img src="/public/avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className='texts'>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum id ullam ipsam error fugiat perspiciatis vitae, tempore repudiandae perferendis facilis illo. Mollitia maiores saepe excepturi culpa dolores iure molestiae obcaecati.</p>
             <span>1 min ago</span>
@@ -57,7 +57,7 @@ const Chat = () => {
         </div>
 
         <div className="message">
-          <img src="/public/avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className='texts'>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum id ullam ipsam error fugiat perspiciatis vitae, tempore repudiandae perferendis facilis illo. Mollitia maiores saepe excepturi culpa dolores iure molestiae obcaecati.</p>
             <span>1 min ago</span>
@@ -72,7 +72,7 @@ const Chat = () => {
         </div>
 
         <div className="message">
-          <img src="/public/avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className='texts'>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum id ullam ipsam error fugiat perspiciatis vitae, tempore repudiandae perferendis facilis illo. Mollitia maiores saepe excepturi culpa dolores iure molestiae obcaecati.</p>
             <span>1 min ago</span>
@@ -80,7 +80,7 @@ const Chat = () => {
         </div>
 
         <div className="message own">
-          <img src="/public/avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className='texts'>
             <img src="https://images.pexels.com/photos/26559989/pexels-photo-26559989/free-photo-of-a-person-s-feet-are-on-the-edge-of-a-boat.jpeg" alt="" />
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum id ullam ipsam error fugiat perspiciatis vitae, tempore repudiandae perferendis facilis illo. Mollitia maiores saepe excepturi culpa dolores iure molestiae obcaecati.</p>
@@ -89,7 +89,7 @@ const Chat = () => {
         </div>
 
         <div className="message">
-          <img src="/public/avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className='texts'>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum id ullam ipsam error fugiat perspiciatis vitae, tempore repudiandae perferendis facilis illo. Mollitia maiores saepe excepturi culpa dolores iure molestiae obcaecati.</p>
             <span>1 min ago</span>
@@ -111,15 +111,15 @@ const Chat = () => {
       <div className="bottom">
 
         <div className="icons">
-          <img src="/public/img.png" alt="" />
-          <img src="/public/camera.png" alt="" />
-          <img src="/public/mic.png" alt="" />
+          <img src="/img.png" alt="" />
+          <img src="/camera.png" alt="" />
+          <img src="/mic.png" alt="" />
         </div>
 
         <input type="text" placeholder="Type a Message..." value={text} onChange={e => setText(e.target.value)} />
 
         <div className="emoji">
-          <img src="/public/emoji.png" alt="emoji" onClick={() => setOpen((e) => !e)} />
+          <img src="/emoji.png" alt="emoji" onClick={() => setOpen((e) => !e)} />
           <div className='picker'>
             <EmojiPicker open={open} onEmojiClick={handleEmoji} />
           </div>

@@ -9,15 +9,15 @@ const ChatList = () => {
     <div className='chatList'>
       <div className="search">
         <div className="searchBar">
-          <img src="/public/search.png" alt="" />
+          <img src="/search.png" alt="" />
           <input type="text" placeholder='Search' />
         </div>
-        <img src={addMore ? '/public/minus.png' : '/public/plus.png'} alt="" className='add-img'
+        <img src={addMore ? '/minus.png' : '/plus.png'} alt="" className='add-img'
           onClick={() => setAddMore((e) => !e)} />
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -25,7 +25,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -33,7 +33,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -41,7 +41,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -49,7 +49,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -57,7 +57,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -65,7 +65,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -73,7 +73,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -81,7 +81,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -89,7 +89,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
@@ -97,7 +97,7 @@ const ChatList = () => {
       </div>
 
       <div className='item'>
-        <img src="/public/avatar.png" alt="" />
+        <img src="/avatar.png" alt="" />
         <div className='texts'>
           <span>Jane Doe</span>
           <p>hello</p>
