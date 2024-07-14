@@ -105,7 +105,7 @@ const ChatList = () => {
         </div>
       </div>
 
-      {addMore ? <AddUser /> : ''}
+      {addMore && <AddUser />}
 
     </div>
   )
