@@ -13,7 +13,7 @@ const ChatList = () => {
   const { currentUser } = useUserStore();
 
   useEffect(() => {
-    const unSub = onSnapshot(doc(db, "userChats", currentUser.id), async (doc) => {
+    const unSub = onSnapshot(doc(db, "userChats", currentUser.id), async (res) => {
       const items = res.data().chats;
 
       const promises = items.map(async (item) => {

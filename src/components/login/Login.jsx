@@ -7,7 +7,7 @@ import { doc, setDoc } from 'firebase/firestore'
 import upload from '../../lib/upload'
 
 const Login = () => {
-    const [avatar, setAvatar] = useState({ file: null, url: '' });
+    const [avatar, setAvatar] = useState({ file: '', url: '' });
 
     const [loading, setLoading] = useState(false);
 
@@ -62,6 +62,7 @@ const Login = () => {
             });
 
             toast.success('Account Created! you can login now');
+            location.reload();
 
         } catch (error) {
             console.log(error)
